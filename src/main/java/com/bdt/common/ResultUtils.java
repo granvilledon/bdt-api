@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.common;
+package com.bdt.common;
 
 /**
  * 返回工具类

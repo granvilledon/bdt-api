@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.config;
+package com.bdt.config;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.module.SimpleModule;

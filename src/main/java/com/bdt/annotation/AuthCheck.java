@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.annotation;
+package com.bdt.annotation;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

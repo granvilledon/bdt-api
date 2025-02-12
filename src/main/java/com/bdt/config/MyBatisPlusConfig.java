@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.config;
+package com.bdt.config;
 
 import com.baomidou.mybatisplus.annotation.DbType;
 import com.baomidou.mybatisplus.extension.plugins.MybatisPlusInterceptor;
@@ -13,7 +13,7 @@ import org.springframework.context.annotation.Configuration;
  * @author https://github.com/liyupi
  */
 @Configuration
-@MapperScan("com.yupi.springbootinit.mapper")
+@MapperScan("com.bdt.mapper")
 public class MyBatisPlusConfig {
 
     /**

@@ -1,11 +1,11 @@
-package com.yupi.springbootinit.aop;
+package com.bdt.aop;
 
-import com.yupi.springbootinit.annotation.AuthCheck;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.exception.BusinessException;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.model.enums.UserRoleEnum;
-import com.yupi.springbootinit.service.UserService;
+import com.bdt.annotation.AuthCheck;
+import com.bdt.common.ErrorCode;
+import com.bdt.exception.BusinessException;
+import com.bdt.model.entity.User;
+import com.bdt.model.enums.UserRoleEnum;
+import com.bdt.service.UserService;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;

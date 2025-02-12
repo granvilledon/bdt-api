@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.common;
+package com.bdt.common;
 
 /**
  * 自定义错误码

@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.dto.user;
+package com.bdt.model.dto.user;
 
 import lombok.Data;
 

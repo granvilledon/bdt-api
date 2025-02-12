@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.dto.team;
+package com.bdt.model.dto.team;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.model.dto.user;
+package com.bdt.model.dto.user;
 
-import com.yupi.springbootinit.common.PageRequest;
+import com.bdt.common.PageRequest;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 

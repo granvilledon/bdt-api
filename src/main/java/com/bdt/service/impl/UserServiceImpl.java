@@ -1,21 +1,22 @@
-package com.yupi.springbootinit.service.impl;
+package com.bdt.service.impl;
 
-import static com.yupi.springbootinit.constant.UserConstant.USER_LOGIN_STATE;
+import static com.bdt.constant.UserConstant.USER_LOGIN_STATE;
 
 import cn.hutool.core.collection.CollUtil;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.constant.CommonConstant;
-import com.yupi.springbootinit.exception.BusinessException;
-import com.yupi.springbootinit.mapper.UserMapper;
-import com.yupi.springbootinit.model.dto.user.UserQueryRequest;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.model.enums.UserRoleEnum;
-import com.yupi.springbootinit.model.vo.LoginUserVO;
-import com.yupi.springbootinit.model.vo.UserVO;
-import com.yupi.springbootinit.service.UserService;
-import com.yupi.springbootinit.utils.SqlUtils;
+import com.bdt.common.ErrorCode;
+import com.bdt.exception.BusinessException;
+import com.bdt.model.dto.user.UserQueryRequest;
+import com.bdt.service.UserService;
+import com.bdt.utils.SqlUtils;
+import com.bdt.constant.CommonConstant;
+import com.bdt.mapper.UserMapper;
+import com.bdt.model.entity.User;
+import com.bdt.model.enums.UserRoleEnum;
+import com.bdt.model.vo.LoginUserVO;
+import com.bdt.model.vo.UserVO;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;

@@ -1,7 +1,7 @@
-package com.yupi.springbootinit.model.dto.task;
+package com.bdt.model.dto.task;
 
 
-import com.yupi.springbootinit.model.enums.TaskTypeEnum;
+import com.bdt.model.enums.TaskTypeEnum;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;

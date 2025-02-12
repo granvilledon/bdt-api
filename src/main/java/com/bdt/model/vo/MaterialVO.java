@@ -1,8 +1,8 @@
-package com.yupi.springbootinit.model.vo;
+package com.bdt.model.vo;
 
-import com.yupi.springbootinit.model.enums.AuditStatusEnum;
-import com.yupi.springbootinit.model.enums.MaterialStatusEnum;
-import com.yupi.springbootinit.model.enums.MaterialTypeEnum;
+import com.bdt.model.enums.AuditStatusEnum;
+import com.bdt.model.enums.MaterialStatusEnum;
+import com.bdt.model.enums.MaterialTypeEnum;
 import lombok.Data;
 
 import java.util.Date;

@@ -1,25 +1,25 @@
-package com.yupi.springbootinit.controller;
+package com.bdt.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
-import com.yupi.springbootinit.annotation.AuthCheck;
-import com.yupi.springbootinit.common.BaseResponse;
-import com.yupi.springbootinit.common.DeleteRequest;
-import com.yupi.springbootinit.common.ErrorCode;
-import com.yupi.springbootinit.common.ResultUtils;
-import com.yupi.springbootinit.config.WxOpenConfig;
-import com.yupi.springbootinit.constant.UserConstant;
-import com.yupi.springbootinit.exception.BusinessException;
-import com.yupi.springbootinit.exception.ThrowUtils;
-import com.yupi.springbootinit.model.dto.user.UserAddRequest;
-import com.yupi.springbootinit.model.dto.user.UserLoginRequest;
-import com.yupi.springbootinit.model.dto.user.UserQueryRequest;
-import com.yupi.springbootinit.model.dto.user.UserRegisterRequest;
-import com.yupi.springbootinit.model.dto.user.UserUpdateMyRequest;
-import com.yupi.springbootinit.model.dto.user.UserUpdateRequest;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.model.vo.LoginUserVO;
-import com.yupi.springbootinit.model.vo.UserVO;
-import com.yupi.springbootinit.service.UserService;
+import com.bdt.annotation.AuthCheck;
+import com.bdt.common.BaseResponse;
+import com.bdt.common.DeleteRequest;
+import com.bdt.common.ErrorCode;
+import com.bdt.common.ResultUtils;
+import com.bdt.config.WxOpenConfig;
+import com.bdt.constant.UserConstant;
+import com.bdt.exception.BusinessException;
+import com.bdt.exception.ThrowUtils;
+import com.bdt.model.dto.user.UserAddRequest;
+import com.bdt.model.dto.user.UserLoginRequest;
+import com.bdt.model.dto.user.UserQueryRequest;
+import com.bdt.model.dto.user.UserRegisterRequest;
+import com.bdt.model.dto.user.UserUpdateMyRequest;
+import com.bdt.model.dto.user.UserUpdateRequest;
+import com.bdt.model.entity.User;
+import com.bdt.model.vo.LoginUserVO;
+import com.bdt.model.vo.UserVO;
+import com.bdt.service.UserService;
 
 import java.util.List;
 import javax.annotation.Resource;
@@ -40,7 +40,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import static com.yupi.springbootinit.service.impl.UserServiceImpl.SALT;
+import static com.bdt.service.impl.UserServiceImpl.SALT;
 
 /**
  * 用户接口

@@ -1,9 +1,10 @@
-package com.yupi.springbootinit.manager;
+package com.bdt.manager;
 
+import com.bdt.config.CosClientConfig;
 import com.qcloud.cos.COSClient;
 import com.qcloud.cos.model.PutObjectRequest;
 import com.qcloud.cos.model.PutObjectResult;
-import com.yupi.springbootinit.config.CosClientConfig;
+
 import java.io.File;
 import javax.annotation.Resource;
 import org.springframework.stereotype.Component;

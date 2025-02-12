@@ -1,7 +1,7 @@
-package com.yupi.springbootinit.model.vo;
+package com.bdt.model.vo;
 
-import com.yupi.springbootinit.model.enums.TaskStatusEnum;
-import com.yupi.springbootinit.model.enums.TaskTypeEnum;
+import com.bdt.model.enums.TaskStatusEnum;
+import com.bdt.model.enums.TaskTypeEnum;
 import lombok.Data;
 
 import java.util.Date;

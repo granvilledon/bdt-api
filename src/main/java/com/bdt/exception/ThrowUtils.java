@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.exception;
+package com.bdt.exception;
 
-import com.yupi.springbootinit.common.ErrorCode;
+import com.bdt.common.ErrorCode;
 
 /**
  * 抛异常工具类

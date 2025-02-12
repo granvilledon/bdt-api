@@ -1,7 +1,7 @@
-package com.yupi.springbootinit.model.vo;
+package com.bdt.model.vo;
 
 
-import com.yupi.springbootinit.model.enums.NotificationTypeEnum;
+import com.bdt.model.enums.NotificationTypeEnum;
 import lombok.Data;
 
 import java.util.Date;

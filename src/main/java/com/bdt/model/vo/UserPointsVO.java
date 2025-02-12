@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.vo;
+package com.bdt.model.vo;
 
 import lombok.Data;
 

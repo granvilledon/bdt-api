@@ -1,11 +1,11 @@
-package com.yupi.springbootinit.service;
+package com.bdt.service;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yupi.springbootinit.model.dto.user.UserQueryRequest;
-import com.yupi.springbootinit.model.entity.User;
-import com.yupi.springbootinit.model.vo.LoginUserVO;
-import com.yupi.springbootinit.model.vo.UserVO;
+import com.bdt.model.dto.user.UserQueryRequest;
+import com.bdt.model.entity.User;
+import com.bdt.model.vo.LoginUserVO;
+import com.bdt.model.vo.UserVO;
 import java.util.List;
 import javax.servlet.http.HttpServletRequest;
 import me.chanjar.weixin.common.bean.WxOAuth2UserInfo;

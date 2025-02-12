@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.manager;
+package com.bdt.manager;
 
 import javax.annotation.Resource;
 import org.junit.jupiter.api.Test;

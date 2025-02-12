@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.common;
+package com.bdt.common;
 
-import com.yupi.springbootinit.constant.CommonConstant;
+import com.bdt.constant.CommonConstant;
 import lombok.Data;
 
 /**

@@ -1,4 +1,4 @@
-package com.yupi.springbootinit.model.enums;
+package com.bdt.model.enums;
 
 // NotificationTypeEnum.java
 public enum NotificationTypeEnum {

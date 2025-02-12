@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.model.dto.material;
+package com.bdt.model.dto.material;
 
-import com.yupi.springbootinit.model.enums.MaterialTypeEnum;
+import com.bdt.model.enums.MaterialTypeEnum;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;

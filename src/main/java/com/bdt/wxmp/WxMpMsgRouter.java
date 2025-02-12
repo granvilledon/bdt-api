@@ -1,8 +1,8 @@
-package com.yupi.springbootinit.wxmp;
+package com.bdt.wxmp;
 
-import com.yupi.springbootinit.wxmp.handler.EventHandler;
-import com.yupi.springbootinit.wxmp.handler.MessageHandler;
-import com.yupi.springbootinit.wxmp.handler.SubscribeHandler;
+import com.bdt.wxmp.handler.EventHandler;
+import com.bdt.wxmp.handler.MessageHandler;
+import com.bdt.wxmp.handler.SubscribeHandler;
 import javax.annotation.Resource;
 import me.chanjar.weixin.common.api.WxConsts.EventType;
 import me.chanjar.weixin.common.api.WxConsts.XmlMsgType;

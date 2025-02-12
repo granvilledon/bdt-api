@@ -1,6 +1,6 @@
-package com.yupi.springbootinit.model.dto.notification;
+package com.bdt.model.dto.notification;
 
-import com.yupi.springbootinit.model.enums.NotificationTypeEnum;
+import com.bdt.model.enums.NotificationTypeEnum;
 import lombok.Data;
 
 import javax.validation.constraints.NotBlank;
